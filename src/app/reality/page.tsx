@@ -51,7 +51,7 @@ const RealityPage = () => {
           <section className="bg-white p-8 rounded-xl shadow-lg">
             <h2 className="text-3xl font-bold text-center mb-8">科技领域的“她”力量</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">在代表未来的科学、技术、工程和数学（STEM）领域，女性的代表性依然不足。以下数据揭示了这一现状。</p>
-            <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 text-center">
               <div className="p-6 bg-gray-50 rounded-lg">
                 <h3 className="text-5xl font-bold text-blue-600">~26%</h3>
                 <p className="mt-2 text-lg font-semibold">工程领域</p>
@@ -71,10 +71,10 @@ const RealityPage = () => {
           </section>
 
           {/* Section 3: Unpaid Care Work */}
-          <section className="bg-white p-8 rounded-xl shadow-lg">
-            <h2 className="text-3xl font-bold text-center mb-8">看不见的劳动：无偿照料工作</h2>
-            <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">家务、育儿、照顾老人...这些无偿工作是社会运转的基石，但其负担却不成比例地落在女性肩上。</p>
-            <div className="grid md:grid-cols-2 gap-8 items-center">
+          <section className="bg-white p-6 sm:p-8 rounded-xl shadow-lg">
+            <h2 className="text-3xl font-bold text-center mb-6 sm:mb-8">看不见的劳动：无偿照料工作</h2>
+            <p className="text-center text-gray-600 mb-6 sm:mb-8 max-w-3xl mx-auto">家务、育儿、照顾老人...这些无偿工作是社会运转的基石，但其负担却不成比例地落在女性肩上。</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 items-center">
               <div className="p-6 bg-pink-100 rounded-lg text-center">
                 <FaVenus className="text-pink-500 text-6xl mx-auto mb-4" />
                 <h3 className="text-2xl font-bold">女性</h3>
